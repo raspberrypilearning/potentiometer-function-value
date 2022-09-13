@@ -1,59 +1,31 @@
-## Introduction
+If you are using a potentiometer to control outputs, then you will need to divide up the dial into equal sections. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+You can use `dial.value` to get a value between 0 and 1 from the potentiometer. 
 
-### What you will make
+**Tip:** You can multiply the value by 100 to get a percentage. If you have five moods, then you can check whether the value is less than 20, 40, 60, 80, or 100. If you have three moods, then you can check whether the value is less than 33, 66, or 100. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: python
+filename: sensory-gadget.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+while True:
+    mood = dial.value * 100 # turn to a percentage
+    print(mood)
+    if mood < 20:
+        happy()
+    elif mood < 40:
+        good()
+    elif mood < 60:
+        okay()
+    elif mood < 80:
+        unsure()
+    else:
+        unhappy()
+    sleep(0.1) 
 
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+--- /code ---
