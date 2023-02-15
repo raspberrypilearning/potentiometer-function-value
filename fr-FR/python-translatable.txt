@@ -1,11 +1,11 @@
-mood
+humeur
 
-happy
+heureux
 
-good
+bien
 
-okay
+ok
 
-unsure
+incertain
 
-unhappy
+malheureux
