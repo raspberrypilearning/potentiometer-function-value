@@ -1,8 +1,8 @@
-If you are using a potentiometer to control outputs, then you will need to divide up the dial into equal sections.
+Si tu utilises un potentiomètre pour contrôler les sorties, tu devras diviser le cadran en sections égales.
 
-You can use `dial.value` to get a value between 0 and 1 from the potentiometer.
+Tu peux utiliser `dial.value` pour obtenir une valeur entre 0 et 1 du potentiomètre.
 
-**Tip:** You can multiply the value by 100 to get a percentage. If you have five moods, then you can check whether the value is less than 20, 40, 60, 80, or 100. If you have three moods, then you can check whether the value is less than 33, 66, or 100.
+**Astuce :** Tu peux multiplier la valeur par 100 pour obtenir un pourcentage. Si tu as cinq humeurs, tu peux vérifier si la valeur est inférieure à 20, 40, 60, 80 ou 100. Si tu as trois humeurs, tu peux vérifier si la valeur est inférieure à 33, 66 ou 100.
 
 --- code ---
 ---
