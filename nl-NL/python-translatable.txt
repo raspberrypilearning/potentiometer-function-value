@@ -1,11 +1,11 @@
-mood
+humeur
 
-happy
+gelukkig
 
-good
+goed
 
-okay
+oké
 
-unsure
+onzeker
 
-unhappy
+ongelukkig
