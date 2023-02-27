@@ -1,0 +1,11 @@
+humeur
+
+heureux
+
+bien
+
+ok
+
+incertain
+
+malheureux

@@ -1,0 +1,11 @@
+humeur
+
+gelukkig
+
+goed
+
+oké
+
+onzeker
+
+ongelukkig

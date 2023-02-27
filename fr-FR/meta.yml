@@ -1,0 +1,10 @@
+---
+title: Appeler une fonction sur base de la valeur du potentiomètre
+hero_image: images/banner.png
+description: Appeler une fonction sur base de la valeur du potentiomètre
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-05-19"
+steps:
+  - title: Appele une fonction basée sur la valeur du potentiomètre
