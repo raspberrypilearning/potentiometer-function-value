@@ -1,8 +1,8 @@
-If you are using a potentiometer to control outputs, then you will need to divide up the dial into equal sections.
+Als je een potentiometer gebruikt om uitvoer te regelen, dan moet je het instelwiel in gelijke secties verdelen.
 
-You can use `dial.value` to get a value between 0 and 1 from the potentiometer.
+Je kunt `dial.value` gebruiken om een waarde tussen 0 en 1 van de potentiometer te krijgen.
 
-**Tip:** You can multiply the value by 100 to get a percentage. If you have five moods, then you can check whether the value is less than 20, 40, 60, 80, or 100. If you have three moods, then you can check whether the value is less than 33, 66, or 100.
+**Tip:** Je kunt de waarde met 100 vermenigvuldigen om een percentage te krijgen. Als je vijf stemmingen hebt, kun je controleren of de waarde lager is dan 20, 40, 60, 80 of 100. Als je drie stemmingen hebt, kun je controleren of de waarde minder is dan 33, 66 of 100.
 
 --- code ---
 ---
