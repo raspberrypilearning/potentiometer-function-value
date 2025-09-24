@@ -1,0 +1,11 @@
+mood
+
+happy
+
+good
+
+okay
+
+unsure
+
+unhappy
